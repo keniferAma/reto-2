@@ -9,4 +9,5 @@ class Persona(BaseModel):
 
 
 class Contraseña(Persona):
-    _contraseña: int = PrivateAttr(default=123)
+    _contraseña: int = PrivateAttr(default=543)
+    
